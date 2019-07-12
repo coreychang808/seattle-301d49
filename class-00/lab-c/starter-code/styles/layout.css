@@ -23,15 +23,34 @@
     font-size: .65em;
     text-transform: uppercase;
   }
+
+  nav, article, aside, footer section {
+    margin: 0 auto;
+    width: 900px;
+}
   
+nav {
+    margin-top: 25px;
+}
 
+footer section p{
+  padding: 50px 0;
+  line-height: 1.5em;
+  text-align: center;
+  color: #aaa;
+}
 
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
 
-
-  aside {
-    padding-top: 30px;
-    padding-bottom: 60px
-  }
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
+}
   
   aside img {
     float: left;
